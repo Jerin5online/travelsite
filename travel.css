@@ -1,0 +1,407 @@
+
+/* home */
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+html{
+    scroll-behavior: smooth;
+       
+}
+body{
+    background-image: url(https://images.pexels.com/photos/15022154/pexels-photo-15022154/free-photo-of-high-angle-shot-of-kaputas-beach.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%; 
+    overflow-x: hidden;
+
+} 
+
+    
+#background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-size: cover;
+
+}
+
+
+ #navbar{
+    background:rgb(255, 255, 255);
+ }
+ #logo{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+   
+ }
+ .logo::before
+
+ #button:hover{
+    box-shadow: 0 0 0 4px #001aff,
+    0 0 0 8px rgb(255, 255, 255);
+ }
+ #lor{
+    color: rgb(255, 255, 255);
+ }
+#tr{
+    color:  #0d00ff;
+}
+#tr:hover{
+    color: red;
+}
+#va{
+    color: #ff0000;
+}
+#va:hover{
+    color: rgb(0, 13, 255);
+}
+#go{
+    color: #D83F1F;
+}
+.nav{
+    width: 100%;
+}
+ .navbar-toggler span{
+    color: #001eff;
+ }
+ .navbar-nav{
+    margin-left: 8%;
+ }
+ .nav-item .nav-link{
+    font-size: 19px;
+    font-weight:bolder;
+    color: black;
+    letter-spacing:3px;
+    transition: 0.5 ease-in;
+   
+ }
+ .nav-item .nav-link:hover{
+    background: #000000;
+    color: white;
+ }
+ .nav-item1 .nav-link{
+    font-size: 19px;
+    font-weight:bolder;
+    color: black;
+    letter-spacing:3px;
+    transition: 0.5 ease-in;
+    
+ }
+
+ .nav-item1 .nav-link:hover{
+    background: #000000;
+    color: white;
+ }
+ .nav-item2 .nav-link{
+    font-size: 19px;
+    font-weight:bolder;
+    color: black;
+    letter-spacing:3px;
+    transition: 0.5 ease-in;
+    
+ }
+ #nav1{
+    font-size: medium;
+ }
+ .nav-item2 .nav-link:hover{
+    background:#000000 ;
+    color: white;
+ }
+ .nav-item3 .nav-link{
+    font-size: 19px;
+    font-weight:bolder;
+    color: black;
+    letter-spacing:3px;
+    transition: 0.5 ease-in;
+ }
+ .nav-item3 .nav-link:hover{
+    background:#001aff ;
+    color: white;
+ }
+
+
+ /* upcoming events */
+
+
+ .packages .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+  }
+  .card{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: x-large;
+
+  }
+  .con{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+  }
+  .packages .card img{
+    border-radius: 5px;
+    height: 25rem;
+    transition: 0.5s;
+  }
+
+  
+  .packages .card .card-body{
+    background: transparent;
+  }
+  .packages .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .packages .card .card-body p{
+    font-size: 15px;
+  }
+  .checked{
+    color: #ffc527;
+  }
+  .star i{
+    font-size: 15px;
+  }
+  .packages .card .card-body h6{
+    font-size: 20px;
+  }
+  .packages .card .card-body a{
+    padding: 10px;
+    text-decoration: none;
+    background: #ffc527;
+    color: white;
+    border-radius: 5px;
+  }
+  .pkg{
+    transform: translateY(100%); 
+    animation: riseFromBottoms 1s ease-in-out forwards; 
+  }
+  @keyframes riseFromBottoms {
+    from {
+      transform: translateY(100%); /* Start below the viewport */
+    }
+    to {
+      transform: translateY(0); /* End at its original position */
+    }
+
+
+  }
+
+
+
+/* EXPLORE THE WORLD */
+
+ #bg1{
+    background-image: url("Https://images.pexels.com/photos/21014/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-attachment: fixed;
+    width: 200%;
+    height: 25em;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+#UP{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+#UP1{
+    text-align: center;
+    color: red;
+}
+#BT3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3em;
+    color: white;
+    
+}
+#BT4{
+    font-size: 1.1em;
+    color: white;
+}
+
+/* TOUR */
+
+
+#tour .card1{
+    box-shadow: 3px 3px 5px #43c2f0;
+  border: 2px solid rgb(55, 169, 218);   
+   
+
+}
+#name{
+    font-size: large;
+    }
+.card-title{
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+}
+.note{
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.price{
+    font-family: 'Gruppo', sans-serif;
+    font-size: 1.2em;
+}
+#hover1:hover{
+transform: scale(1.2);
+transition: .5s;
+}
+#book:hover{
+background-color: #3b22ff;
+box-shadow: 0 0 5px rgb(101, 117, 216),
+0 0 20px rgb(93, 109, 208),0 0 20px rgb(77, 95, 213);
+}
+.button{
+    margin-bottom: 1em;
+}
+.btn{
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+} 
+
+/* OUR SERVICES */
+
+#OS{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+color: white;
+}
+#para2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+
+
+}
+#head{
+    font-family: 'Abel', sans-serif;
+        font-size: 1.7em;
+        color: rgb(255, 255, 255);
+        font-family: 'Paytone One', sans-serif;
+        font-weight: bolder;
+}
+#head2{
+    font-family: 'Abel', sans-serif;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+
+}
+
+#ser{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+/* IMAGES */
+
+.container .heading{
+font-size: 3rem;
+margin: 2rem o;
+text-transform: capitalize;
+color: var(--purple);
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+letter-spacing: .2rem;
+text-align: center;
+text-shadow: 0 black;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img{
+    border: solid 3px rgb(255, 255, 255);
+}
+.img-container .img{
+    height: 15rem;
+    width: 23rem;
+    margin: 2rem;
+    box-shadow: 0 .2rem 1rem black;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.img-container .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.img-container .img img:hover{
+    transition: .2s linear;
+    transform: scale(1.3);
+}
+
+
+/* CONTACT */
+
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+.row{
+    box-shadow: rgba(25, 25, 31, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+   
+}
+.col-md-7{
+    padding: 20px;
+    background: #3a4146;
+}
+.col-md-5{
+    background: #3a4146;
+    padding: 20px;
+    color: white;
+
+}
+.form-label{
+    color: white;
+}
+.form-control {
+    height: 52px;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    border-radius: 2px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bi{
+    font-size: 20px;
+}
+.d-flex p{
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+  
